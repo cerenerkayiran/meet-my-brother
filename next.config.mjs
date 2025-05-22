@@ -8,13 +8,11 @@ const nextConfig = {
   },
   output: 'export',
   basePath: '/meet-my-brother',
+  assetPrefix: '/meet-my-brother/',
   images: {
     unoptimized: true,
-    remotePatterns: [],
-    loader: 'custom',
-    loaderFile: './image-loader.js',
   },
-  assetPrefix: '/meet-my-brother/',
+  trailingSlash: true,
 }
 
 export default nextConfig
