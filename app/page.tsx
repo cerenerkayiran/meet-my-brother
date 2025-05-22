@@ -21,7 +21,7 @@ export default function Home() {
           {/* Profile Image */}
           <div className="border-2 border-white w-36 h-36 mb-12">
             <img
-              src="/meet-my-brother/face.jpg"
+              src="face.jpg"
               alt="Profile image"
               className="w-full h-full object-cover"
             />
@@ -64,7 +64,7 @@ export default function Home() {
               {/* Right Image */}
               <div className="w-1/2">
                 <img
-                  src="/meet-my-brother/big-one.jpg"
+                  src="big-one.jpg"
                   alt="big image"
                   className="w-full h-full object-cover"
                 />
@@ -84,7 +84,7 @@ export default function Home() {
             <div className="grid grid-cols-3 gap-2 p-2">
               <div className="border border-black">
                 <img
-                  src="/meet-my-brother/profile.jpg"
+                  src="profile.jpg"
                   alt="image 1"
                   className="w-full h-full object-cover"
                 />
@@ -99,21 +99,21 @@ export default function Home() {
               </div>
               <div className="border border-black">
                 <img
-                  src="/meet-my-brother/right.jpg"
+                  src="right.jpg"
                   alt="Gallery image 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="border border-black">
                 <img
-                  src="/meet-my-brother/frank.png"
+                  src="frank.png"
                   alt="frank image 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="border border-black">
                 <img
-                  src="/meet-my-brother/bottom.jpg"
+                  src="bottom.jpg"
                   alt="bottom image"
                   className="w-full h-full object-cover"
                 />

@@ -34,6 +34,9 @@ jobs:
       - name: Build
         run: pnpm build
         
+      - name: Copy public directory
+        run: cp -r public/* out/
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
