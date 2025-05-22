@@ -20,11 +20,9 @@ export default function Home() {
         <div className="relative z-10 flex flex-col items-center pt-8 px-4">
           {/* Profile Image */}
           <div className="border-2 border-white w-36 h-36 mb-12">
-            <Image
-              src={`/meet-my-brother/face.jpg`}
+            <img
+              src="/meet-my-brother/face.jpg"
               alt="Profile image"
-              width={144}
-              height={144}
               className="w-full h-full object-cover"
             />
           </div>
@@ -65,11 +63,9 @@ export default function Home() {
 
               {/* Right Image */}
               <div className="w-1/2">
-                <Image
-                  src={`/meet-my-brother/big-one.jpg`}
+                <img
+                  src="/meet-my-brother/big-one.jpg"
                   alt="big image"
-                  width={300}
-                  height={300}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -87,11 +83,9 @@ export default function Home() {
             {/* Gallery Grid */}
             <div className="grid grid-cols-3 gap-2 p-2">
               <div className="border border-black">
-                <Image
-                  src={`/meet-my-brother/profile.jpg`}
+                <img
+                  src="/meet-my-brother/profile.jpg"
                   alt="image 1"
-                  width={200}
-                  height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -104,31 +98,25 @@ export default function Home() {
                 </p>
               </div>
               <div className="border border-black">
-                <Image
-                  src={`/meet-my-brother/right.jpg`}
+                <img
+                  src="/meet-my-brother/right.jpg"
                   alt="Gallery image 2"
-                  width={200}
-                  height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="border border-black">
-              <Image
-                  src={`/meet-my-brother/frank.png`}
+                <img
+                  src="/meet-my-brother/frank.png"
                   alt="frank image 2"
-                  width={200}
-                  height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="border border-black">
-                <Image
-                  src={`/meet-my-brother/bottom.jpg`}
+                <img
+                  src="/meet-my-brother/bottom.jpg"
                   alt="bottom image"
-                  width={200}
-                  height={200}
                   className="w-full h-full object-cover"
-                /> 
+                />
               </div>
               <div className="border border-black p-4 text-xs">
                 <div className="mb-4">
