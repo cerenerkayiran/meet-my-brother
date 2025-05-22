@@ -21,8 +21,8 @@ export default function Home() {
           {/* Profile Image */}
           <div className="border-2 border-white w-36 h-36 mb-12">
             <Image
-              src="/face.jpg?height=144&width=144"
-              alt="main image"
+              src="/face.jpg"
+              alt="Profile image"
               width={144}
               height={144}
               className="w-full h-full object-cover"
@@ -66,7 +66,7 @@ export default function Home() {
               {/* Right Image */}
               <div className="w-1/2">
                 <Image
-                  src="/big-one.jpg?height=300&width=300"
+                  src="/big-one.jpg"
                   alt="big image"
                   width={300}
                   height={300}
@@ -88,7 +88,7 @@ export default function Home() {
             <div className="grid grid-cols-3 gap-2 p-2">
               <div className="border border-black">
                 <Image
-                  src="/profile.jpg?height=200&width=200"
+                  src="/profile.jpg"
                   alt="image 1"
                   width={200}
                   height={200}
@@ -97,7 +97,7 @@ export default function Home() {
               </div>
               <div className="border border-black bg-black text-white flex items-center justify-center p-4 text-center text-xs">
                 <p>
-                 He’s a gentleman well-raised by two sisters
+                 He's a gentleman well-raised by two sisters
                   <br />
                   And we have seven cats btw
                   <br /> ;)
@@ -105,7 +105,7 @@ export default function Home() {
               </div>
               <div className="border border-black">
                 <Image
-                  src="/right.jpg?height=200&width=200"
+                  src="/right.jpg"
                   alt="Gallery image 2"
                   width={200}
                   height={200}
@@ -114,7 +114,7 @@ export default function Home() {
               </div>
               <div className="border border-black">
               <Image
-                  src="/frank.png?height=200&width=200"
+                  src="/frank.png"
                   alt="frank image 2"
                   width={200}
                   height={200}
@@ -123,7 +123,7 @@ export default function Home() {
               </div>
               <div className="border border-black">
                 <Image
-                  src="/bottom.jpg?height=200&width=200"
+                  src="/bottom.jpg"
                   alt="bottom image"
                   width={200}
                   height={200}

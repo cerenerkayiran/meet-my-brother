@@ -10,7 +10,11 @@ const nextConfig = {
   basePath: '/meet-my-brother',
   images: {
     unoptimized: true,
+    remotePatterns: [],
+    loader: 'custom',
+    loaderFile: './image-loader.js',
   },
+  assetPrefix: '/meet-my-brother/',
 }
 
 export default nextConfig
